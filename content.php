@@ -1,6 +1,3 @@
-<!-- ONOMA : CHRISTINA PAPADODIMITRAKI -->
-<!-- A.M.: 1684 -->
-
 <?php
 $content = [
     "Κινητά" => [
