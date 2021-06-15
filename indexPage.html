@@ -1,0 +1,63 @@
+<!-- ONOMA : CHRISTINA PAPADODIMITRAKI -->
+<!-- A.M.: 1684 -->
+
+<html>
+    <meta charset ="UTF-8"/> 
+    <head>
+        <title>ΜΕΜ-331_IndexPage</title>
+        
+        <style type = "text/css">
+            body 
+            {
+                background : #517688;
+            }
+
+            #skroutz
+            {
+                width: 400px;
+                height: 100px;
+                margin: 0;
+                position:fixed;
+                top: 250px;
+                left: 500;
+            }
+
+            #form
+            {
+                position:fixed;
+                top: 355px;
+                left: 450px;
+                margin: 5px;
+            }
+
+            #inputBox
+            {
+                width: 500px; 
+                height: 45px; 
+                float: left;
+            }
+
+            #submitButton
+            {
+                height: 45px;
+                width: 100px;
+                overflow: hidden;
+                background-color: orange;
+                border-color: white #d4ebfc #d4ebfc white;
+                border-width: 3px;
+                color: white;
+                position: fixed;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div>
+            <img id="skroutz" src = "images/skroutz.svg"/>
+            <form id="form"  action="search.php" method="get">
+                <input id="inputBox" type="text" name="item">
+                <input id="submitButton" type="submit" value="Αναζήτηση">     
+            </form>
+        </div>
+    </body>
+</html>
