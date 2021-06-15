@@ -1,6 +1,3 @@
-<!-- ONOMA : CHRISTINA PAPADODIMITRAKI -->
-<!-- A.M.: 1684 -->
-
 <!DOCTYPE html>
 <html>
   <meta charset ="UTF-8"/> 
